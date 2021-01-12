@@ -1,3 +1,7 @@
+/* eslint-disable no-trailing-spaces */
+/* eslint-disable prettier/prettier */
+/* eslint-disable react/self-closing-comp */
+/* eslint-disable react-native/no-inline-styles */
 import { StyleSheet, Dimensions } from 'react-native';
 
 const AddTodoStyles = StyleSheet.create({
