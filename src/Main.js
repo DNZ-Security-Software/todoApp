@@ -3,56 +3,55 @@ import { View, Text, FlatList, Alert } from 'react-native';
 
 import { Header, AddTodo, TodoItem } from './components';
 import styles from './styles';
-
+const initialTodos = [
+  {
+    key: 8,
+    todo: 'Happy new year 😎',
+    isDone: false,
+  },
+  {
+    key: 7,
+    todo: 'Happy coding !!!',
+    isDone: false,
+  },
+  {
+    key: 6,
+    todo: 'Show your completed and remain todos !',
+    isDone: false,
+  },
+  {
+    key: 5,
+    todo: 'When you finish your action, press todo item and it is change done!',
+    isDone: false,
+  },
+  {
+    key: 4,
+    todo: 'Todo-app ver 2.0 has new features!',
+    isDone: false,
+  },
+  {
+    key: 3,
+    todo: 'Several bugs fixed!',
+    isDone: false,
+  },
+  {
+    key: 2,
+    todo: 'Release Todo-app ver 2.0 !!!',
+    isDone: false,
+  },
+  {
+    key: 1,
+    todo: 'Be ready for other Project',
+    isDone: false,
+  },
+  {
+    key: 0,
+    todo: 'Load The Project ver 0.95',
+    isDone: true,
+  },
+];
 const Main = () => {
-  const [todos, setTodos] = useState([
-    {
-      key: 8,
-      todo: 'Happy new year 😎',
-      isDone: false,
-    },
-    {
-      key: 7,
-      todo: 'Happy coding !!!',
-      isDone: false,
-    },
-    {
-      key: 6,
-      todo: 'Show your completed and remain todos !',
-      isDone: false,
-    },
-    {
-      key: 5,
-      todo:
-        'When you finish your action, press todo item and it is change done!',
-      isDone: false,
-    },
-    {
-      key: 4,
-      todo: 'Todo-app ver 2.0 has new features!',
-      isDone: false,
-    },
-    {
-      key: 3,
-      todo: 'Several bugs fixed!',
-      isDone: false,
-    },
-    {
-      key: 2,
-      todo: 'Release Todo-app ver 2.0 !!!',
-      isDone: false,
-    },
-    {
-      key: 1,
-      todo: 'Be ready for other Project',
-      isDone: false,
-    },
-    {
-      key: 0,
-      todo: 'Load The Project ver 0.95',
-      isDone: true,
-    },
-  ]);
+  const [todos, setTodos] = useState(initialTodos);
 
   const todo_num = todos.length;
 

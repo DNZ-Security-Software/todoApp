@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import {
-  StyleSheet,
   View,
   Text,
   TextInput,
   TouchableOpacity,
-  Dimensions,
 } from 'react-native';
 
 import { AddTodoStyles as styles } from './styles';

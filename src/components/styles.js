@@ -51,4 +51,60 @@ const AddTodoStyles = StyleSheet.create({
 
 export { AddTodoStyles };
 
+const HeaderStyles = StyleSheet.create({
+  header: {
+    fontSize: 35,
+    fontWeight: 'bold',
+    color: '#ffa801',
+    margin: 5,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  todo_count: {
+    fontSize: 35,
+    color: '#e2e2e2',
+    alignSelf: 'center',
+    fontWeight: 'bold',
+    margin: 10,
+  },
+  image: {
+    width: 50,
+    height: 50,
+    borderRadius: 30,
+    marginTop: 10,
+    marginLeft: 10,
+  },
+});
 
+export { HeaderStyles };
+
+const TodoItemStyles = StyleSheet.create({
+  todos: {
+    textAlign: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#485460',
+    borderRadius: 5,
+    marginLeft: 20,
+    marginRight: 20,
+    marginBottom: 15,
+    padding: 5,
+    paddingLeft: 15,
+    paddingHorizontal: 10,
+    flexDirection: 'row',
+  },
+  text: {
+    flex: 1,
+    color: '#e2e2e2',
+    fontWeight: 'bold',
+    alignSelf: 'center',
+  },
+  image: {
+    width: 25,
+    height: 25,
+    margin: 5,
+  },
+});
+
+export { TodoItemStyles };

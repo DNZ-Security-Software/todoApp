@@ -1,10 +1,7 @@
-import React from "react";
-import {
-  StyleSheet,
-  View,
-  Text,
-  Image
-} from "react-native";
+import React from 'react';
+import { View, Text, Image } from 'react-native';
+
+import { HeaderStyles as styles } from './styles';
 
 const Header = ({ todoCounter }) => {
   return (
@@ -17,29 +14,3 @@ const Header = ({ todoCounter }) => {
 };
 
 export { Header };
-
-const styles = StyleSheet.create({
-  header: {
-    fontSize: 35,
-    fontWeight: "bold",
-    color: "#ffa801",
-    margin: 5,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center"
-  },
-  todo_count: {
-    fontSize: 35,
-    color: "#e2e2e2",
-    alignSelf: "center",
-    fontWeight: "bold",
-    margin: 10,
-  },
-  image: {
-    width: 50,
-    height: 50,
-    borderRadius: 30,
-    marginTop: 10,
-    marginLeft: 10,
-  },
-});
