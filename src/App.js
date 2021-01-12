@@ -6,60 +6,45 @@ import { Header, AddTodo, TodoItem } from "./components";
 const App = () => {
   const [todos, setTodos] = useState([
     {
-      key: 11,
+      key: 7,
       todo: "Happy new year 😎",
       isDone: false,
     },
     {
-      key: 10,
-      todo: "Happy coding 😎",
+      key: 7,
+      todo: "Happy coding !!!",
       isDone: false,
     },
     {
-      key: 9,
+      key: 6,
       todo: "Show your completed and remain todos !",
       isDone: false,
     },
     {
-      key: 8,
+      key: 5,
       todo:
         "When you finish your action, press todo item and it is change done!",
       isDone: false,
     },
     {
-      key: 7,
+      key: 4,
       todo: "Todo-app ver 2.0 has new features!",
       isDone: false,
     },
     {
-      key: 6,
+      key: 3,
       todo: "Several bugs fixed!",
       isDone: false,
     },
     {
-      key: 5,
+      key: 2,
       todo: "Release Todo-app ver 2.0 !!!",
       isDone: false,
     },
     {
-      key: 4,
+      key: 1,
       todo: "Be ready for other Project",
       isDone: false,
-    },
-    {
-      key: 3,
-      todo: "Wait for Code47",
-      isDone: false,
-    },
-    {
-      key: 2,
-      todo: "Clap to Coderhackers",
-      isDone: true,
-    },
-    {
-      key: 1,
-      todo: "Reply to Curious Coders",
-      isDone: true,
     },
     {
       key: 0,
